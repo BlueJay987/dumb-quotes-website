@@ -1,0 +1,126 @@
+body {
+    background-color: #f5deb3;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 255, 255,0.55);
+    text-align: center;
+    padding: 1em;
+    font-family: "JetBrains Mono";
+    margin: 0;
+    border: 0.2vw solid black;
+}
+header h1 {
+    font-size: 4.5vw;
+}
+header h2 {
+    font-size: 2vw;
+}
+/* Header */
+
+/* Search Bar */
+nav {
+    background-color: whitesmoke;
+    padding: 1vw;
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-bottom: 4vh;
+    z-index: 1;
+}
+.navcontent {
+    margin: auto;
+}
+input[type=text] {
+    padding: 0.6vw;
+    font-size: 1.3vw;
+    font-family: "JetBrains Mono";
+    background-color: white;
+    border: 3px solid black;
+}
+select {
+    padding: 0.6vw;
+    font-size: 1.3vw;
+    font-family: "JetBrains Mono";
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+}
+#search {
+    padding: 0.6vw;
+    font-size: 1.3vw;
+    font-family: "JetBrains Mono";
+    background-color: white;
+    border: 3px solid black;
+}
+.sort {
+    font-family: "JetBrains Mono";
+    color: black;
+    font-size: 1.5vw;
+    padding: 0.6vw;
+    margin: 0.2%;
+    border: 0.15em solid black;
+    border-radius: 0.5em;
+}
+.order {
+    background-color: dodgerblue;
+}
+.order:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(13, 78, 241);
+}
+.know {
+    background-color: crimson;
+}
+.know:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(186, 16, 50);
+}
+#ascending, #known {
+    margin-left: 3%;
+}
+/* Search Bar */
+
+
+#quotecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    background-color: rgb(250, 217, 155) ;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    box-shadow: 1em 1em 0.5em rgba(0, 0, 0, 0.5);
+    transition: 100ms;
+    margin-bottom: 4%;
+}
+.quote:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 1em 1em 0.5em rgba(0, 0, 0, 0.7);
+    transition: 100ms;
+}
+.quote q {
+    font-family: "JetBrains Mono";
+    padding: 20px;
+    font-size: 180%;
+}
+.quote h1 {
+    font-family: "JetBrains Mono";
+    margin-bottom: 2%;
+}
+.quote p {
+    font-family: "JetBrains Mono";
+    margin: 0;
+    position: absolute;
+    left: 16px;
+    bottom: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Dumb Quotes Database</h1>
+            <h2>a collection of dumb things i've heard people say in my own life :)</h2>
+        </header>
+
+        <nav>
+            <div class="navcontent">
+                <input id="search" type="text" placeholder="Search..">
+                <select id="searchby" name="searchby">
+                    <option value="id">by ID</option>
+                    <option value="content">by Content</option>
+                    <option value="speaker">by Speaker</option>
+                </select>
+
+                <button id="ascending" class="sort order">Ascending</button>
+                <button id="decending" class="sort order">Decending</button>
+                <button id="random" class="sort order">Random</button>
+
+                <button id="known" class="sort know">Known</button>
+                <button id="unknown" class="sort know">Unknown</button>
+            </div>
+        </nav>
+
+        <div id="quotecontainer">
+            <!-- Template -->
+            <!--<div class="quote">
+                <q>if it's to the point where you have to decide between hoes and homework...</q>
+                <h1>- zach</h1>
+                <p>#61</p>
+            </div> -->
+        </div>
+    </body>
+</html>

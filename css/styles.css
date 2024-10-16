@@ -10,6 +10,7 @@ header {
     font-family: "JetBrains Mono";
     margin: 0;
     border: 0.2vw solid black;
+    inset-inline: 0;
 }
 header h1 {
     font-size: 4.5vw;
@@ -29,6 +30,7 @@ nav {
     top: 0;
     margin-bottom: 4vh;
     z-index: 1;
+    inset-inline: 0;
 }
 .navcontent {
     margin: auto;
@@ -123,4 +125,29 @@ select {
     left: 16px;
     bottom: 10px;
     font-size: 20px;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    color: white;
+    font-family: "JetBrains Mono";
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    inset-inline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    font-size: 1.5em;
+}
+footer img {
+    display: inline;
+    transform: scale(0.6, 0.6);
+    margin-left: 10%;
 }
